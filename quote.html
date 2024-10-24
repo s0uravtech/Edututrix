@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/meanmenu.min.css">
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/nice-select.min.css">
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/odometer.min.css">
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/style.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+<link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/side-menu.css">
+<style>
+    .get-quat-area ptb-100{
+        background: linear-gradient(285deg, #1c669a, #c5d0d8, #61829a, #c6dae9, #3b6b8d, #72d0d8, #a8e8f0, #d8c672);
+        background-size: 1600% 1600%;
+
+        -webkit-animation: AnimationName 33s ease infinite;
+        animation: AnimationName 33s ease infinite;
+    }
+
+    @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+    
+
+    }
+
+</style>
+
+
+</head>
+  <body>
+<!-- Start Get Quote Area -->
+<section class="get-quat-area ptb-100" id="get-a-quote" style="background: linear-gradient(285deg, #1c669a, #c5d0d8, #61829a, #c6dae9, #3b6b8d, #72d0d8, #a8e8f0, #d8c672);
+background-size: 1600% 1600%;
+
+-webkit-animation: AnimationName 33s ease infinite;
+animation: AnimationName 33s ease infinite;
+
+
+@-webkit-keyframes AnimationName {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}">
+  <div class="container" >
+    <div class="section-title" style="max-width: 1160px" >
+      <span class="preheading pt-100" style="color: #1c669a;">Know your dream's budget :)</span>
+      <h1>Get a Free Quote</h1>
+      <p>Get a personalized estimate on coverage options for your dream space.</p>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="get-quat-img wow fadeInLeft" data-wow-delay=".3s">
+          <img src="https://sherpabrokerage.com/assets/img/work-risk-free.svg" alt="Image work-risk-free">
+        </div>
+      </div>
+
+      <div class="col-lg-6" >
+
+        <div class="quat-form" style="background-color: #1c669a;">
+          <div class="tab">
+            <h2 style="color:white">Get a Quote Today</h2>
+
+            <div class="tab_content">
+              <div class="tabs_item">
+                <p>Fill out the form and we'll get back to you with a personalized quote.</p>
+
+                <form method="post" action="submit_quote.php" id="quote-form">
+
+                  <div class="form">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-group">
+                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="select-box">
+                        <i class="flaticon-avatar"></i>
+
+                        <select class="form-control" id="architecture" name="architecture" required>
+                          <option value="">Select architectural Type</option>
+                          <option value="Residential architecture">Residential architecture</option>
+                          <option value="Commercial architecture">Commercial architecture</option>
+                          <option value="Landscape architecture">Landscape architecture</option>
+                          <option value="Interior design architecture">Interior design architecture</option>
+                          <option value="Urban design architecture">TUrban design architecture</option>
+                          <option value="Green design architecture">Green design architecture</option>
+                          <option value="Industrial architecture">Industrial architecture</option>
+                          <option value="Other Type">Other Type</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" id="message" required data-error="Write your message" placeholder="Your Message" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <button type="submit" class="default-btn" value="Submit" style="background-color:black;">
+                      Submit a Quote
+                    </button>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Get Quote Area -->
+  </body>
+
+</html>
